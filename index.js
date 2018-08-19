@@ -11,7 +11,7 @@ function findMatching(driverArray, name) {
   }
 
 
-  function findMatching(driverArray, name) {
+  function matchName(driverArray, name) {
      return driverArray.filter(function (driverElement)
      { return driverElement.name.toLowerCase() ===  name.toLowerCase() });
    }
