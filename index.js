@@ -9,3 +9,9 @@ function findMatching(driverArray, name) {
     return driverArray.filter(function (driverName)
     { return driverName.slice(0,lengthOfPartialName).toLowerCase() ===  partialNam.toLowerCase() });
   }
+
+
+  function findMatching(driverArray, name) {
+     return driverArray.filter(function (driverElement)
+     { return driverElement.name.toLowerCase() ===  name.toLowerCase() });
+   }
