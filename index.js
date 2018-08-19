@@ -5,7 +5,7 @@ function findMatching(driverArray, name) {
  }
 
  function fuzzyMatch(driverArray, partialNam) {
-    let lengthOfPartialName  = partialNam.length;  debugger
+    let lengthOfPartialName  = partialNam.length;
     return driverArray.filter(function (driverName)
     { return driverName.slice(0,lengthOfPartialName).toLowerCase() ===  partialNam.toLowerCase() });
   }
